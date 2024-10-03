@@ -31,7 +31,7 @@
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Description"
                             name="description">{{ $task->description }}</textarea>
                     </div>
-                    <button type="reset" class="btn btn-primary">Reset</button>
+                    {{-- <button type="reset" class="btn btn-primary">Reset</button> --}}
                     <button type="submit" class="btn btn-primary">Update</button>
                 </form>
             </div>
